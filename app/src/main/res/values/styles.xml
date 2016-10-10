@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+
+    </style>
+    <style name="AppTheme.NoActionBar" parent="@android:style/Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/CalendarActionBarStyle</item>
+    </style>
+
+    <style name="AppTheme.ToolbarStyle" parent="android:Widget.Material.Toolbar">
+        <item name="android:titleTextStyle">@style/PrizeTheme.TextAppearance.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/PrizeTheme.TextAppearance.ActionBar.SubTitle</item>
+    </style>
+
+    <style name="CalendarActionBarStyle" parent="android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/PrizeTheme.TextAppearance.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/PrizeTheme.TextAppearance.ActionBar.SubTitle</item>
+    </style>
+
+    <style name="PrizeTheme.TextAppearance.ActionBar.Title"
+        parent="@android:style/TextAppearance.Material.Widget.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@null</item>
+        <item name="android:textColor">@android:color/holo_purple</item>
+    </style>
+    <style name="PrizeTheme.TextAppearance.ActionBar.SubTitle"
+        parent="@android:style/TextAppearance.Material.Widget.Toolbar.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@null</item>
+        <item name="android:textColor">@android:color/holo_purple</item>
+    </style>
+
+</resources>
